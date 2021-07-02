@@ -16,12 +16,14 @@ public class Solution {
                 aux += S.charAt(i);
             }
         }
-        
+        //This will store the formatted number
         String aux2 = "";
+        //If the number is divisible by 3, so there would be no two-digit groups in the formatted number
         if(aux.length() % 3 == 0)
         {
             for (int i = 0; i < aux.length();)
             {
+                //This adds a dash wherever it is appropriate
                 if((i % 3 == 0) && (i != 0))
                 {
                     aux2 += "-";
