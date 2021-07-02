@@ -36,6 +36,7 @@ public class Solution {
                 i++;
             }
         }
+        //In this case, we will have one or two two-digit groups at the end of the formatted number
         else
         {
             for (int i = 0; i < aux.length()-2;)
